@@ -1,0 +1,21 @@
+{
+  "name": "ddos-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram DDOS Bot with CloudFlare Bypass",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "termux": "node bot.js --termux"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "net": "^1.0.2",
+    "tls": "^0.0.1",
+    "crypto": "^1.0.1",
+    "cluster": "^0.7.7",
+    "os": "^0.1.2",
+    "events": "^3.3.0",
+    "url": "^0.11.0",
+    "axios": "^1.6.0"
+  }
+}
